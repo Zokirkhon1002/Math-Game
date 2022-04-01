@@ -53,6 +53,7 @@ const Game = ({ setStart }) => {
     setIsDisabled(false);
     setRes("");
     setValue("");
+    setIsDisabledNext(true)
   };
 
   const ref = useRef();
